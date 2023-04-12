@@ -1,0 +1,110 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #2C2C2C;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  background-size: cover;
+}
+
+.buscador-card {
+  margin: 0;
+  padding: 10px;
+  width: 270px;
+  height: 50vh;
+  background-color: rgba(95, 92, 92, 0.267);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.clima-card {
+  padding: 10px;
+  text-align: right;
+}
+
+.temp {
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.texto-info {
+  color: rgba(255, 255, 255, 0.844);
+  margin-right: 10%;
+}
+
+.temperature {
+  margin-top: 35%;
+  margin-right: 10%;
+}
+
+.label-search{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.searchbox{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.search {
+  margin-top: 20px;
+  width: 90%;
+  height: 20px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  text-align: center;
+}
+.search:focus {
+
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: white;
+}
+.search::before {
+  background: transparent !important;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: white;
+}
+.search::after {
+  background: transparent !important;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: white;
+}
+
+.info-adicional{
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+
+.material-symbols-outlined {
+  border: none;
+  color: white;
+  background: transparent;
+}
